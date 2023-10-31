@@ -1,0 +1,43 @@
+.title h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 2rem;
+    gap: 12px;
+    justify-content: center;
+}
+
+.media .event-data{
+    display: block;
+    width: 30%;
+    height: 600px;
+    border: 1px solid #eb2fa3;
+    background: #eb2fa3;
+    color: #fff;
+}
+
+.media .event-data .text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.media .event-data .text .description{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+video{
+    height: 400px;
+    width: 100%;
+}

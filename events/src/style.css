@@ -1,0 +1,16 @@
+body{
+    background: #fffed4;
+}
+
+.upload-form{
+    display: grid;
+    margin: auto;
+    width: 500px;
+    background-color: aquamarine;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+
+table{
+    margin-top: 2rem;
+}
